@@ -10,7 +10,8 @@ const msalConfig = {
       "https://login.microsoftonline.com/5f4ee553-cbb6-4aad-80c0-3b756a05ea9b", // Replace with your Tenant ID
     // authority:
     //   "https://login.microsoftonline.com/common", // Replace with your Tenant ID
-    redirectUri: "http://localhost:3000",
+    // redirectUri: "http://localhost:3000",
+    redirectUri: "https://sharepoint-react.vercel.app/",
   },
 };
 // Create MSAL instance
